@@ -138,8 +138,8 @@ function displayMenuItem(menuItems) {
 function displayBtnItem(categories) {
   let displayCategories = categories.map(function (category) {
     return `<button class="filter-btn" type="button" data-id="${category}">
-    ${category}
-  </button> `;
+ ${category}
+  </button>`;
   });
 
   displayCategories = displayCategories.join("");
