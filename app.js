@@ -137,9 +137,9 @@ function displayMenuItem(menuItems) {
 // display category button
 function displayBtnItem(categories) {
   let displayCategories = categories.map(function (category) {
-    return `<button class="filter-btn" type="button" data-id=" ${category}">
- ${category}
-  </button>`;
+    return `<button class="filter-btn" type="button" data-id="${category}">
+    ${category}
+  </button> `;
   });
 
   displayCategories = displayCategories.join("");
